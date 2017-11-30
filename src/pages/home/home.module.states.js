@@ -7,7 +7,7 @@ const homeIndex = {
   url: "/home",
   component: "homeComponent",
   resolve: {
-    loadHomeModule: ($ocLazyLoad) => {
+    loadHomeModule: ["$ocLazyLoad", ($ocLazyLoad) => {
       return new Promise((resolve, reject) => {
         require.ensure([], () => {
           // load whole module
@@ -17,14 +17,14 @@ const homeIndex = {
             name: "home.module"
           });
 
-          if (module.name) {
+          if (module) {
             resolve(module.name);
           } else {
             reject("Ooops, somethig went wrong!");
           }
         });
       });
-    }
+    }]
   }
 };
 
@@ -33,7 +33,7 @@ const homeAbout = {
   url: "/about",
   component: "homeAboutComponent",
   resolve: {
-    loadAboutModule: ($ocLazyLoad) => {
+    loadAboutModule: ["$ocLazyLoad", ($ocLazyLoad) => {
       return new Promise((resolve, reject) => {
         require.ensure([], () => {
           // load whole module
@@ -43,14 +43,14 @@ const homeAbout = {
             name: "home.about.module"
           });
 
-          if (module.name) {
+          if (module) {
             resolve(module.name);
           } else {
             reject("Ooops, somethig went wrong!");
           }
         });
       });
-    }
+    }]
   }
 };
 
