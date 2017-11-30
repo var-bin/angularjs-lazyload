@@ -1,4 +1,4 @@
-<table bgcolor="#fff">
+<table bgcolor="#fff" border="0" width="100%" style="margin: 0; border: 0; width: 100%;">
   <tr valign="middle">
     <td>
       <a href="https://angularjs.org/">
@@ -35,8 +35,7 @@
 [![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/var-bin/angularjs-lazyload)
 [![David](https://img.shields.io/david/expressjs/express.svg)](https://github.com/var-bin/angularjs-lazyload)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/var-bin/angularjs-lazyload)
-[![GitHub issue author](https://img.shields.io/github/issues/detail/u/badges/shields/979.svg)](https://github.com/var-bin/angularjs-lazyload)
-[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/var_bincom)
+[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/var_bincom)
 
 # angularjs-lazyload
 This repo is existed to help you to understand how to implement lazyload technique via Webpack and a little bit of magic.
