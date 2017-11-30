@@ -35,6 +35,7 @@
 [![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/var-bin/angularjs-lazyload)
 [![David](https://img.shields.io/david/expressjs/express.svg)](https://github.com/var-bin/angularjs-lazyload)
 [![Build Status](https://travis-ci.org/var-bin/angularjs-lazyload.svg?branch=master)](https://travis-ci.org/var-bin/angularjs-lazyload)
+[![Build status](https://ci.appveyor.com/api/projects/status/1q7hekkmwurqj9pe?svg=true)](https://ci.appveyor.com/project/var-bin/angularjs-lazyload)
 [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/var_bincom)
 
 # angularjs-lazyload
