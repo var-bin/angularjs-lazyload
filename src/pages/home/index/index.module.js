@@ -3,7 +3,6 @@
 "use strict";
 
 import angular from "angular";
-import "./index.styles.css";
 
 class HomeIndexController {
   constructor() {
