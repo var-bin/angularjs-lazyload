@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server --devtool inline-source-map",
     "build": "webpack -p",
-    "test": ""
+    "test": "eslint --report-unused-disable-directives --ext .js src/"
   },
   "author": "Vitalii Rybka @var_bincom",
   "license": "MIT",
