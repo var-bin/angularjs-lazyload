@@ -1,30 +1,30 @@
 <table bgcolor="#fff" border="0" width="100%" style="margin: 0; border: 0; width: 100%;">
   <tr valign="middle">
-    <td>
+    <td border="0">
       <a href="https://angularjs.org/">
         <img width="300" heigth="200" src="https://angularjs.org/img/AngularJS-large.png">
       </a>
     </td>
-    <td style="font-size: 2.5em; color: #000;">
+    <td border="0"style="font-size: 2.5em; color: #000;">
       <strong>+</strong>
     </td>
-    <td>
+    <td border="0">
       <a href="https://github.com/webpack/webpack">
         <img width="150" heigth="200" src="https://webpack.js.org/assets/icon-square-big.svg">
       </a>
     </td>
-    <td style="font-size: 2.5em; color: #000;">
+    <td border="0"style="font-size: 2.5em; color: #000;">
       <strong>+</strong>
     </td>
-    <td>
+    <td border="0">
       <a href="https://oclazyload.readme.io/">
         <img width="76" heigth="80" src="https://files.readme.io/Jf0ukPc2SmeSSG4wtZK0_ocLazyLoad-logo2.png">
       </a>
     </td>
-    <td style="font-size: 2.5em; color: #000;">
+    <td border="0" style="font-size: 2.5em; color: #000;">
       <strong>=</strong>
     </td>
-    <td style="font-size: 2.5em; color: #000;">
+    <td border="0" style="font-size: 2.5em; color: #000;">
       :heart_eyes:
     </td>
   </tr>
@@ -42,7 +42,7 @@ This repo is existed to help you to understand how to implement lazyload techniq
 
 ## Install
 1. Do `git clone` stuff.
-2. `cd <repo-name>`.
+2. `cd angularjs-lazyload`.
 3. `npm install`.
 4. Run **dev** mode: `npm start`.
 
