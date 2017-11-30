@@ -1,24 +1,24 @@
 <table bgcolor="#fff" border="0" width="100%" style="margin: 0; border: 0; width: 100%;">
   <tr valign="middle">
     <td border="0">
-      <a href="https://angularjs.org/">
-        <img width="300" heigth="200" src="https://angularjs.org/img/AngularJS-large.png">
+      <a href="https://angularjs.org/" target="_blank">
+        <img width="300" heigth="200" src="https://angularjs.org/img/AngularJS-large.png" alt="AngularJS">
       </a>
     </td>
-    <td border="0"style="font-size: 2.5em; color: #000;">
+    <td border="0" style="font-size: 2.5em; color: #000;">
       <strong>+</strong>
     </td>
     <td border="0">
-      <a href="https://github.com/webpack/webpack">
-        <img width="150" heigth="200" src="https://webpack.js.org/assets/icon-square-big.svg">
+      <a href="https://github.com/webpack/webpack" target="_blank">
+        <img width="150" heigth="200" src="https://webpack.js.org/assets/icon-square-big.svg" alt="Webpack">
       </a>
     </td>
-    <td border="0"style="font-size: 2.5em; color: #000;">
+    <td border="0" style="font-size: 2.5em; color: #000;">
       <strong>+</strong>
     </td>
     <td border="0">
-      <a href="https://oclazyload.readme.io/">
-        <img width="76" heigth="80" src="https://files.readme.io/Jf0ukPc2SmeSSG4wtZK0_ocLazyLoad-logo2.png">
+      <a href="https://oclazyload.readme.io/" target="_blank">
+        <img width="76" heigth="80" src="https://files.readme.io/Jf0ukPc2SmeSSG4wtZK0_ocLazyLoad-logo2.png" alt="ocLazyLoad">
       </a>
     </td>
     <td border="0" style="font-size: 2.5em; color: #000;">
