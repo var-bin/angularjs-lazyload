@@ -7,7 +7,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 const config = {
   entry: {
-    app: "./src/core/bootstrap.js"
+    app: path.resolve("./src/core/bootstrap.js")
   },
   output: {
     filename: "bundle.js",
@@ -45,7 +45,7 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: "index.html",
-      template: "./src/index.html"
+      template: path.resolve("./src/index.html")
     }),
 
     new webpack.optimize.CommonsChunkPlugin({
