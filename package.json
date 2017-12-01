@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Lazy load AngularJS modules using Webpack and AngularUI Router",
   "scripts": {
-    "start": "webpack-dev-server --devtool inline-source-map",
-    "build": "webpack -p",
+    "start": "webpack-dev-server --devtool inline-source-map --env.dev",
+    "build": "webpack -p --env.production",
     "test": "eslint --report-unused-disable-directives --ext .js src/"
   },
   "author": "Vitalii Rybka @var_bincom",
