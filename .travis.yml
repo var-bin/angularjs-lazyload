@@ -8,10 +8,10 @@ cache:
 matrix:
   include:
     - os: linux
-      node_js: "7"
+      node_js: "8"
       env: NO_WATCH_TESTS=1
     - os: osx
-      node_js: "7"
+      node_js: "8"
       env: NO_WATCH_TESTS=1
   allow_failures:
     - os: osx
