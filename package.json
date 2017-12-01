@@ -1,12 +1,17 @@
 {
-  "name": "angular-lazyload-webpack",
+  "name": "angularjs-lazyload",
   "version": "1.0.0",
-  "description": "Lazy load AngularJS modules using Webpack and AngularUI Router",
+  "description": "Load AngularJS modules on demand via Webpack, UI Router and ocLazyLoad",
   "scripts": {
-    "start": "webpack-dev-server --devtool inline-source-map",
-    "build": "webpack -p",
-    "test": ""
+    "start": "webpack-dev-server --devtool inline-source-map --env.dev",
+    "build": "webpack -p --env.production",
+    "test": "eslint --report-unused-disable-directives --ext .js src/"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/var-bin/angularjs-lazyload.git"
+  },
+  "homepage": "https://github.com/var-bin/angularjs-lazyload",
   "author": "Vitalii Rybka @var_bincom",
   "license": "MIT",
   "dependencies": {
