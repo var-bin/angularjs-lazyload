@@ -72,7 +72,9 @@ const config = {
   ],
   devServer: {
     contentBase: path.resolve("build"),
-    hot: true
+    hot: true,
+    host: process.env.host || "localhost",
+    port: process.env.PORT || 5000
   }
 };
 
