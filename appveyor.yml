@@ -18,5 +18,10 @@ test_script:
   - npm --version
   - npm t
 
+# cache npm modules
+cache:
+  - node_modules # local npm modules
+  - '%APPDATA%\npm-cache' # npm cache
+
 # Don't actually build.
 build: off
