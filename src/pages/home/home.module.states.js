@@ -22,12 +22,9 @@ const homeAbout = {
   lazyLoad: ($transition$) => {
     const $ocLazyLoad = $transition$.injector().get("$ocLazyLoad");
 
-    return require.ensure([], () => {
-      // load whole module
-      let module = require("./about/about.module");
-
-      $ocLazyLoad.load(module.HOME_ABOUT_MODULE);
-    }, "about.module");
+    /* eslint no-undef: 0 */
+    return System.import(/* webpackChunkName: "about.module" */ "./about/about.module")
+      .then(mod => $ocLazyLoad.load(mod.HOME_ABOUT_MODULE));
   }
 };
 
