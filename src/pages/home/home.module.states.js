@@ -14,7 +14,7 @@ const homeIndex = {
       let module = require("./index/index.module");
 
       $ocLazyLoad.load(module.HOME_INDEX_MODULE);
-    });
+    }, "index.module");
   }
 };
 
@@ -30,7 +30,7 @@ const homeAbout = {
       let module = require("./about/about.module");
 
       $ocLazyLoad.load(module.HOME_ABOUT_MODULE);
-    });
+    }, "about.module");
   }
 };
 
