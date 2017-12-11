@@ -17,8 +17,6 @@ class HomeIndexComponent {
   }
 }
 
-const HOME_INDEX_MODULE = angular
+angular
   .module("home.module", [])
   .component("homeComponent", new HomeIndexComponent());
-
-export { HOME_INDEX_MODULE };
