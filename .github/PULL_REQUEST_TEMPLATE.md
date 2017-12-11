@@ -1,6 +1,6 @@
 <!-- Thanks for submitting a pull request! Please provide enough information so that others can review your pull request. -->
 
-**What kind of change does this PR introduce?**
+**What kind of changes does this PR introduce?**
 
 <!-- E.g. a bugfix, feature, refactoring, build related change, etc… -->
 
