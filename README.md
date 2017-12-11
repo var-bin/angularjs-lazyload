@@ -53,6 +53,7 @@ The init state of App:
 project-root
 ├── src
 │   ├── core
+│   │   ├── bootstrap.js
 │   ├── pages
 │   │   ├── home
 │   │   │   ├── about
