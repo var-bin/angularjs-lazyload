@@ -1,0 +1,12 @@
+{
+  "name": "angularjs-lazyload",
+  "description": "Load AngularJS modules on demand via Webpack, UI Router and ocLazyLoad",
+  "repository": "https://github.com/var-bin/angularjs-lazyload",
+  "keywords": [
+    "AngularJS",
+    "lazyLoad",
+    "webpack",
+    "ocLazyLoad",
+    "uiRouter"
+  ]
+}

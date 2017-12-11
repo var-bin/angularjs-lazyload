@@ -30,16 +30,16 @@
   </tr>
 </table>
 
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://github.com/var-bin/angularjs-lazyload)
-[![node](https://img.shields.io/node/v/passport.svg)](https://github.com/var-bin/angularjs-lazyload)
-[![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/var-bin/angularjs-lazyload)
-[![David](https://img.shields.io/david/expressjs/express.svg)](https://github.com/var-bin/angularjs-lazyload)
+[![GitHub license](https://img.shields.io/github/license/var-bin/angularjs-lazyload.svg)](https://github.com/var-bin/angularjs-lazyload/blob/master/LICENSE)
+[![David](https://img.shields.io/david/var-bin/angularjs-lazyload.svg)](https://github.com/var-bin/angularjs-lazyload)
 [![Build Status](https://travis-ci.org/var-bin/angularjs-lazyload.svg?branch=master)](https://travis-ci.org/var-bin/angularjs-lazyload)
 [![Build status](https://ci.appveyor.com/api/projects/status/1q7hekkmwurqj9pe?svg=true)](https://ci.appveyor.com/project/var-bin/angularjs-lazyload)
-[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/var_bincom)
+[![@var_bincom on Twitter](https://img.shields.io/twitter/follow/var_bincom.svg?style=social&label=Follow%20%40var_bincom)](https://twitter.com/var_bincom)
 
 # angularjs-lazyload
 This repo is existed to help you to understand how to implement lazyload technique via Webpack and a little bit of magic.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/var-bin/angularjs-lazyload)
 
 ## Install
 1. Do `git clone` stuff.
@@ -53,6 +53,7 @@ The init state of App:
 project-root
 ├── src
 │   ├── core
+│   │   ├── bootstrap.js
 │   ├── pages
 │   │   ├── home
 │   │   │   ├── about
