@@ -10,7 +10,7 @@ const homeIndex = {
     const $ocLazyLoad = $transition$.injector().get("$ocLazyLoad");
 
     /* eslint no-undef: 0 */
-    return System.import("./index/index.module")
+    return System.import(/* webpackChunkName: "index.module" */ "./index/index.module")
       .then(mod => $ocLazyLoad.load(mod.HOME_INDEX_MODULE));
   }
 };
