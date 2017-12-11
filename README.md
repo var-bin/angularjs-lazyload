@@ -35,6 +35,7 @@
 [![Build Status](https://travis-ci.org/var-bin/angularjs-lazyload.svg?branch=master)](https://travis-ci.org/var-bin/angularjs-lazyload)
 [![Build status](https://ci.appveyor.com/api/projects/status/1q7hekkmwurqj9pe?svg=true)](https://ci.appveyor.com/project/var-bin/angularjs-lazyload)
 [![@var_bincom on Twitter](https://img.shields.io/twitter/follow/var_bincom.svg?style=social&label=Follow%20%40var_bincom)](https://twitter.com/var_bincom)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/var-bin/angularjs-lazyload.svg?style=social)](https://twitter.com/intent/tweet?text=Load%20AngularJS%20modules%20on%20demand%20via%20Webpack,%20UI%20Router,%20and%20ocLazyLoad%20by%20%40var_bincom:&url=https%3A%2F%2Fgithub.com%2Fvar-bin%2Fangularjs-lazyload&hashtags=angularjs%2CWebpack%2Cuirouter%2CocLazyLoad)
 
 # angularjs-lazyload
 This repo is existed to help you to understand how to implement lazyload technique via Webpack and a little bit of magic.

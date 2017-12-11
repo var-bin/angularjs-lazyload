@@ -6,8 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lazy load AngularJS with Webpack</title>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css"
+  />
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.ie.min.css" />
+  <![endif]-->
+
+  <style>
+    .github-fork-ribbon::before {
+      padding: 1em 0;
+    }
+
+    .github-fork-ribbon::after {
+      line-height: 1.2em;
+    }
+  </style>
 </head>
 <body>
+  <div class="l-github-ribbon">
+    <a class="github-fork-ribbon" href="https://github.com/var-bin/angularjs-lazyload" data-ribbon="Fork me on GitHub" title="Fork me on GitHub" target="_blank">Fork me on GitHub</a>
+  </div>
   <div class="container">
     <header class="row">
       <nav class="col-xs-12">
