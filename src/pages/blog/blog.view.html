@@ -1,0 +1,12 @@
+<!-- blog.view.html -->
+
+<h1 data-ng-bind="$ctrl.title"></h1>
+
+<ul class="l-repos-list">
+  <li data-ng-repeat="repo in $ctrl.repos track by $index">
+    <h3 data-ng-bind="repo.name"></h3>
+    <h4>
+      <a data-ng-href="{{repo.html_url}}" data-ng-bind="repo.full_name" target="_blank"></a>
+    </h4>
+  </li>
+</ul>
