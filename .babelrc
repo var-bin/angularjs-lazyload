@@ -11,5 +11,8 @@
         }
       }
     ]
+  ],
+  "plugins": [
+    "syntax-dynamic-import"
   ]
 }

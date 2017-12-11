@@ -54,6 +54,10 @@ project-root
 │   ├── core
 │   │   ├── bootstrap.js
 │   ├── pages
+│   │   ├── blog
+│   │   │   ├── blog.module.js
+│   │   │   ├── blog.service.js
+│   │   │   ├── blog.view.html
 │   │   ├── home
 │   │   │   ├── about
 │   │   │   │   ├── about.module.js
@@ -65,5 +69,7 @@ project-root
 │   │   │   ├── home.module.routing.js
 │   │   │   ├── home.module.states.js
 ├── app.js
+├── app.routing
+├── app.states.js
 ├── index.html
 ```
