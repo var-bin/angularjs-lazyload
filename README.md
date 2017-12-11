@@ -39,8 +39,6 @@
 # angularjs-lazyload
 This repo is existed to help you to understand how to implement lazyload technique via Webpack and a little bit of magic.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/var-bin/angularjs-lazyload)
-
 ## Install
 1. Do `git clone` stuff.
 2. `cd angularjs-lazyload`.
