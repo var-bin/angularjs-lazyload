@@ -9,12 +9,9 @@ const homeIndex = {
   lazyLoad: ($transition$) => {
     const $ocLazyLoad = $transition$.injector().get("$ocLazyLoad");
 
-    return require.ensure([], () => {
-      // load whole module
-      const module = require("./index/index.module");
-
-      $ocLazyLoad.load(module.default);
-    }, "index.module");
+    /* eslint no-undef: 0 */
+    return System.import("./index/index.module")
+      .then(mod => $ocLazyLoad.load(mod.HOME_INDEX_MODULE));
   }
 };
 
