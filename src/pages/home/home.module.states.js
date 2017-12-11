@@ -11,7 +11,10 @@ const homeIndex = {
 
     /* eslint no-undef: 0 */
     return System.import(/* webpackChunkName: "index.module" */ "./index/index.module")
-      .then(mod => $ocLazyLoad.load(mod.HOME_INDEX_MODULE));
+      .then(mod => $ocLazyLoad.load(mod.HOME_INDEX_MODULE))
+      .catch(err => {
+        throw new Error("Ooops, something went wrong, " + err);
+      });
   }
 };
 
@@ -24,7 +27,10 @@ const homeAbout = {
 
     /* eslint no-undef: 0 */
     return System.import(/* webpackChunkName: "about.module" */ "./about/about.module")
-      .then(mod => $ocLazyLoad.load(mod.HOME_ABOUT_MODULE));
+      .then(mod => $ocLazyLoad.load(mod.HOME_ABOUT_MODULE))
+      .catch(err => {
+        throw new Error("Ooops, something went wrong, " + err);
+      });
   }
 };
 
