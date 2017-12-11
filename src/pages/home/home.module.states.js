@@ -11,11 +11,9 @@ const homeIndex = {
 
     return require.ensure([], () => {
       // load whole module
-      require("./index/index.module");
+      const module = require("./index/index.module");
 
-      $ocLazyLoad.load({
-        name: "home.module"
-      });
+      $ocLazyLoad.load(module.default);
     }, "index.module");
   }
 };

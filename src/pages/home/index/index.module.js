@@ -17,6 +17,6 @@ class HomeIndexComponent {
   }
 }
 
-angular
+export default angular
   .module("home.module", [])
   .component("homeComponent", new HomeIndexComponent());
