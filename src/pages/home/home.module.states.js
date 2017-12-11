@@ -6,25 +6,15 @@ const homeIndex = {
   name: "home",
   url: "/home",
   component: "homeComponent",
-  resolve: {
-    loadHomeModule: ["$ocLazyLoad", ($ocLazyLoad) => {
-      return new Promise((resolve, reject) => {
-        require.ensure([], () => {
-          // load whole module
-          let module = require("./index/index.module");
+  lazyLoad: ($transition$) => {
+    const $ocLazyLoad = $transition$.injector().get("$ocLazyLoad");
 
-          $ocLazyLoad.load({
-            name: "home.module"
-          });
+    return require.ensure([], () => {
+      // load whole module
+      const module = require("./index/index.module");
 
-          if (module) {
-            resolve(module.name);
-          } else {
-            reject("Ooops, somethig went wrong!");
-          }
-        });
-      });
-    }]
+      $ocLazyLoad.load(module.default);
+    }, "index.module");
   }
 };
 
@@ -32,25 +22,15 @@ const homeAbout = {
   name: "home.about",
   url: "/about",
   component: "homeAboutComponent",
-  resolve: {
-    loadAboutModule: ["$ocLazyLoad", ($ocLazyLoad) => {
-      return new Promise((resolve, reject) => {
-        require.ensure([], () => {
-          // load whole module
-          let module = require("./about/about.module");
+  lazyLoad: ($transition$) => {
+    const $ocLazyLoad = $transition$.injector().get("$ocLazyLoad");
 
-          $ocLazyLoad.load({
-            name: "home.about.module"
-          });
+    return require.ensure([], () => {
+      // load whole module
+      let module = require("./about/about.module");
 
-          if (module) {
-            resolve(module.name);
-          } else {
-            reject("Ooops, somethig went wrong!");
-          }
-        });
-      });
-    }]
+      $ocLazyLoad.load(module.HOME_ABOUT_MODULE);
+    }, "about.module");
   }
 };
 
