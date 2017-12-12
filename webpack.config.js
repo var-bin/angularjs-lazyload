@@ -25,7 +25,7 @@ const webpackConfig = (env) => {
     },
     module: {
       rules: [
-        // js
+        // eslint
         {
           enforce: "pre",
           test: /\.js$/,
