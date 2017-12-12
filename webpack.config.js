@@ -20,12 +20,12 @@ const webpackConfig = (env) => {
     },
     output: {
       filename: "bundle.js",
-      chunkFilename: "[name].bundle.js",
+      chunkFilename: "[name].chunk.js",
       path: path.join(__dirname, "dist")
     },
     module: {
       rules: [
-        // js
+        // eslint
         {
           enforce: "pre",
           test: /\.js$/,
