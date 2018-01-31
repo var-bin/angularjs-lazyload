@@ -6,7 +6,9 @@
     "start": "webpack-dev-server --devtool inline-source-map --env.dev",
     "build": "webpack --env.production",
     "test": "eslint --report-unused-disable-directives --ext .js src/",
-    "heroku": "npm run build && node server.js"
+    "heroku": "npm run build && node server.js",
+    "size": "size-limit",
+    "bundle-buddy": "bundle-buddy"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,7 @@
     "babel-loader": "^7.1.2",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-preset-env": "^1.6.1",
+    "bundle-buddy": "^0.2.1",
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
     "eslint": "^4.12.1",
@@ -38,8 +41,10 @@
     "html-webpack-plugin": "^2.30.1",
     "npm-check-updates": "^2.13.0",
     "raw-loader": "^0.5.1",
+    "size-limit": "^0.14.0",
     "style-loader": "^0.19.0",
-    "uglifyjs-webpack-plugin": "^1.1.2"
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack-bundle-analyzer": "^2.9.2"
   },
   "keywords": [
     "AngularJS",
@@ -47,5 +52,11 @@
     "webpack",
     "ocLazyLoad",
     "uiRouter"
+  ],
+  "size-limit": [
+    {
+      "limit": "300 KB",
+      "path": "dist/*.js"
+    }
   ]
 }
