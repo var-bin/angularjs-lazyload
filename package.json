@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server --devtool inline-source-map --env.dev",
     "build": "webpack --env.production",
-    "test": "eslint --report-unused-disable-directives --ext .js src/",
+    "test": "eslint --report-unused-disable-directives --ext .js src/ && npm run size",
     "heroku": "npm run build && node server.js",
     "size": "size-limit",
     "bundle-buddy": "bundle-buddy"
@@ -56,6 +56,7 @@
   "size-limit": [
     {
       "limit": "300 KB",
+      "webpack": false,
       "path": "dist/*.js"
     }
   ]
