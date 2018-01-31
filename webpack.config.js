@@ -5,6 +5,7 @@ const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 const devServer = {
   contentBase: path.resolve("dist"),
@@ -73,7 +74,9 @@ const webpackConfig = (env) => {
         }
       }),
 
-      new CleanWebpackPlugin(["dist"])
+      new CleanWebpackPlugin(["dist"]),
+
+      new BundleAnalyzerPlugin()
     ]
   };
 
